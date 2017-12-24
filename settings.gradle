@@ -1,0 +1,1 @@
+include ':app', ':sdk', ':net', ':ptr-lib', ':ui', ':commons', ':playground'

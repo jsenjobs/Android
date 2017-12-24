@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/library-2.4.0_03b1644cedfda683a8403d4363eaefa156cadb47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/2e09c7c1411a7ccf18025cb8e2bbe259aa79548e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c3043b238f8acef8208392bad99f7b82d82e0006">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_82b295bbf875712d95531e930ea1cd7b1339933c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/e96066268cda090c703d80b54193daa77caca1be/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_b4d828c35057acafcd311b3f25a724115191215d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="228d8713a09b702ffec31803c7319923596660a8">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_5185306bf97d490189aa92ef54a1d18a02b5d843.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_f82441a1f03342e925837ffe67803f7778aba8b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/9f94cce64dbc3ca60ddfba225846e91ec6f71c45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_534e09e6900b9943a1fa07df1d72e40dfab7d781.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/26f63bfc9e5b5ab281ddeebc29e34d09949f19e4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_8aaf624df6c8318ecf9bc524eb83d35bc1feae3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/2f1e855a8405fb3b06dadfa08e0f3085ec6e4854/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_ff7c590e5ec1784165f53ef216287d1db7c14015.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f8a065d61b97dd48423fb386baafd1df248689d0">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_8ee783a83b26f949c09751767c82cb4b19d1cf87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a01fe8abceb3c38091c68807dcd486c754db8bcf">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_3df065a37ea908704edbbba95601c8ffa057b888.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45cce4853df1f94341706ccd4f003abc7bfb224d">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_5762ae653ebabac2b213e72aa91099a037e46b24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.jakewharton.scalpel/scalpel/1.1.2/5ba0479abcf273a2c252dc65d47e4d5b95b2f700/scalpel-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5ba0479abcf273a2c252dc65d47e4d5b95b2f700">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/scalpel-1.1.2_5a77bca26ee861f872dbc3d8c5f34a284d06901b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/8b019ed281b07cf504a97a9aebb2cbe13ef9986a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_2db0169be6e7fe317d0368988ed3f2b135326f51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/5a754a26aa3afc588e62e3b3a2ab5a21def20930/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="be36c61f475da25feaaaef4638ae28aec2bd7dc9">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_c8ec22f85c9b65b3bdea1c67dcc7d08adccb0251.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/okio-1.3.0_a96cce77f6e2743a4273d0f2ae2325a416a35426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_b3f76a8523ea307296ed18cb221b007154e2943f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/6c83e110ae3c8a936ad995207fbc9f7cc3187281/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="92e359c53b444598bf7973f1cbf31c8dc769e19f">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_bdd6c7828b785e3e8cc5aea2faa74cc623211e98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/80c5bc17f926c3d3a934e6fc859ec7eabaae097b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_3355668322e73bea69f3d73cdc24248b9d9b9279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/88dc7c2e104d9ac41acb81b8fd97dbb50a7584e4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7ba22785d529a9cd95f714ca782a59846a22ce02">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_2b4808b9ecbd5df84a645af341027c6ce41021c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/libs/alipaySdk-20170922.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7537e663454a204c3675929dae034a556ac1f753">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/alipaySdk-20170922_b6af2c29481c29599d1d9af9dfa3abb56e468e68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0f8ce176d7dad031de66ac7471ec60ef4dcd0911">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_91173a32a95e43c6a923c2ae373f47a7eb293671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_4d198b471afa4379f62c0f6af68a367c2798096d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ecf6513ff951842412fa7277d6008d85071ab8e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/543578e4a2e65c29f0c8b3b8f8a008dfc3fe97e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_2beaed19d4034ae63ef8e57358d706d7e578a77b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_546e46028b28166fd10ece3a435e8ebbcbcb0926.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jsen/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d9bb22160238496a1cf27a2b9eb076fcecbaf3cd">
+        <dex dex="/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/app/build/intermediates/pre-dexed/debug/classes_37710ce9b4d87fde675f308efdb427647a48cf4f.jar" />
+    </item>
+
+</items>

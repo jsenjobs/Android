@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="targetcolor" format="color" />
+    <attr name="normalcolor" format="color" />
+    <attr name="ratio" format="float" />
+
+    <!--  SimpleBottomBar start -->
+    <declare-styleable name="SimpleBottomBar">
+        <attr name="selected" format="integer" />
+        <attr name="normalcolor" />
+        <attr name="targetcolor" />
+        <attr name="targetDrawable" format="reference" />
+    </declare-styleable>
+    <!--  SimpleBottomBar end -->
+
+    <!--  TextViewPlus start  -->
+    <declare-styleable name="TextViewPlus">
+        <attr name="left_height" format="dimension" />
+        <attr name="left_width" format="dimension" />
+        <attr name="right_height" format="dimension" />
+        <attr name="right_width" format="dimension" />
+        <attr name="top_height" format="dimension" />
+        <attr name="top_width" format="dimension" />
+        <attr name="bottom_height" format="dimension" />
+        <attr name="bottom_width" format="dimension" />
+    </declare-styleable>
+    <!--  TextViewPlus end  -->
+
+    <!--  RichTextView start  -->
+    <declare-styleable name="RichTextView">
+        <attr name="rich_color" format="color" />
+        <attr name="rich_text" format="string" />
+    </declare-styleable>
+    <!--  RichTextView end  -->
+
+    <!--    RecyclerViewPager start    -->
+    <declare-styleable name="RecyclerViewPager">
+        <attr name="ratio"/>
+        <attr name="rvp_triggerOffset" format="float" />
+        <attr name="rvp_flingFactor" format="float" />
+        <attr name="rvp_singlePageFling" format="boolean" />
+    </declare-styleable>
+    <!--    RecyclerViewPager end    -->
+
+    <!--  SwitchButton start -->
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+        <attr name="kswAutoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+    <!--  SwitchButton end -->
+
+    <!--corner_color 边角颜色，
+        scanner_color 扫描线颜色
+        possible_result_color 扫描点颜色
+        frame_color 扫描框边线颜色
+        mask_color 模糊区域颜色
+        label_text  框上方提示
+    -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+</resources>

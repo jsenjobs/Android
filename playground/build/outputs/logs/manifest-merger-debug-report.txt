@@ -1,0 +1,300 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:20:1-123:12
+	package
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:22:11-37
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:21:11-57
+	xmlns:android
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:20:11-69
+	android:versionCode
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:24:5-66
+MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:26:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:27:5-64
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:27:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:28:22-76
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:29:5-87
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:29:22-85
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:30:5-77
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:30:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:31:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:32:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:33:5-74
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:33:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:34:5-78
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:34:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:35:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:37:5-59
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:37:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:38:5-69
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:38:19-67
+application
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:40:5-121:19
+MERGED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:29:5-35:19
+MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/522b45036ba4b37474b0d33e3186c7f1c1fe0c09/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/cc5a48218e602edf450e1f648274f0096e8ddb07/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/jsen/.android/build-cache/80c5bc17f926c3d3a934e6fc859ec7eabaae097b/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jsen/.android/build-cache/4460cf662f8d83c65dcad308c93f25e748cf8a2f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jsen/.android/build-cache/580826d8585cf9dba9b1e39755ee9101f8a5d620/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jsen/.android/build-cache/d2e28f885d24f85096d5f0214500e7a8dcc562ce/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jsen/.android/build-cache/b39a5605a7978388b5f27237665e5313596e0daf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jsen/.android/build-cache/4bf02d836f2b6c44eaa485235cc3f5aa789ca274/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/build-cache/d363dbec51ae80993e2b2f02506f21c3a2796adc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/jsen/.android/build-cache/8b019ed281b07cf504a97a9aebb2cbe13ef9986a/output/AndroidManifest.xml:24:5-20
+MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/AndroidManifest.xml:13:5-20
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:14:5-18:19
+	android:label
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:44:13-45
+	android:supportsRtl
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:45:13-39
+	tools:overrideLibrary
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:47:13-64
+	android:allowBackup
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:42:13-40
+	android:icon
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:43:13-47
+	android:theme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:41:13-42
+uses-library#android.test.runner
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:48:9-59
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:48:23-57
+receiver#com.alibaba.weex.util.CoverageDataDumper
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:50:9-56:20
+	tools:ignore
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:51:13-52
+intent-filter#com.taobao.weex.DUMP_COVERAGE_DATA
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:53:13-55:29
+action#com.taobao.weex.DUMP_COVERAGE_DATA
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:54:25-74
+activity#com.alibaba.weex.SplashActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:58:9-69:20
+	android:screenOrientation
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:62:17-53
+	android:label
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:61:17-49
+	android:configChanges
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:60:17-78
+	android:theme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:63:17-55
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:59:17-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:64:13-68:29
+action#android.intent.action.MAIN
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:65:17-68
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:67:17-76
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:67:27-74
+activity#com.alibaba.weex.IndexActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:70:9-75:20
+	android:screenOrientation
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:73:17-53
+	android:label
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:72:17-49
+	android:theme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:74:17-60
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:71:17-46
+activity#com.alibaba.weex.WXPageActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:76:9-93:20
+	android:screenOrientation
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:79:17-53
+	android:label
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:78:17-49
+	android:theme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:80:17-60
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:77:17-47
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT+com.taobao.android.intent.action.WEEX+com.taobao.android.intent.category.WEEX
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:81:13-92:29
+action#com.taobao.android.intent.action.WEEX
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:82:25-77
+category#android.intent.category.DEFAULT
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:84:17-75
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:84:27-73
+category#com.taobao.android.intent.category.WEEX
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:85:17-83
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:85:27-81
+action#android.intent.action.VIEW
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:86:17-68
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:86:25-66
+data
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:88:17-46
+	android:scheme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:88:23-44
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:94:9-114:20
+	android:clearTaskOnLaunch
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:96:17-49
+	android:screenOrientation
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:97:17-53
+	android:stateNotNeeded
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:98:17-46
+	android:windowSoftInputMode
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:100:17-64
+	android:theme
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:99:17-52
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:95:17-79
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCAN
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:101:13-105:29
+action#com.google.zxing.client.android.SCAN
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:102:17-78
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:102:25-76
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:106:13-113:29
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:110:17-77
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:110:27-75
+activity#com.google.zxing.client.android.history.HistoryActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:115:9-118:48
+	android:label
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:117:17-54
+	android:stateNotNeeded
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:118:17-46
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:116:17-87
+activity#com.alibaba.weex.BenchmarkActivity
+ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:119:9-120:57
+	android:screenOrientation
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:120:19-55
+	android:name
+		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:119:19-68
+uses-sdk
+INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Android:commons:unspecified] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/bundles/default/AndroidManifest.xml:25:5-27:41
+MERGED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:25:5-27:41
+MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.12.0] /Users/jsen/.android/build-cache/26f63bfc9e5b5ab281ddeebc29e34d09949f19e4/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.12.0] /Users/jsen/.android/build-cache/9f94cce64dbc3ca60ddfba225846e91ec6f71c45/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:0.12.0] /Users/jsen/.android/build-cache/6c83e110ae3c8a936ad995207fbc9f7cc3187281/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:0.12.0] /Users/jsen/.android/build-cache/88dc7c2e104d9ac41acb81b8fd97dbb50a7584e4/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.12.0] /Users/jsen/.android/build-cache/2f1e855a8405fb3b06dadfa08e0f3085ec6e4854/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.12.0] /Users/jsen/.android/build-cache/543578e4a2e65c29f0c8b3b8f8a008dfc3fe97e1/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.12.0] /Users/jsen/.android/build-cache/e96066268cda090c703d80b54193daa77caca1be/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/522b45036ba4b37474b0d33e3186c7f1c1fe0c09/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/cc5a48218e602edf450e1f648274f0096e8ddb07/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jsen/.android/build-cache/09ee35c0e447d160f12b0aa618e68b3c33861b8b/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /Users/jsen/.android/build-cache/80c5bc17f926c3d3a934e6fc859ec7eabaae097b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jsen/.android/build-cache/4460cf662f8d83c65dcad308c93f25e748cf8a2f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jsen/.android/build-cache/580826d8585cf9dba9b1e39755ee9101f8a5d620/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jsen/.android/build-cache/d2e28f885d24f85096d5f0214500e7a8dcc562ce/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jsen/.android/build-cache/b39a5605a7978388b5f27237665e5313596e0daf/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jsen/.android/build-cache/4bf02d836f2b6c44eaa485235cc3f5aa789ca274/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/build-cache/d363dbec51ae80993e2b2f02506f21c3a2796adc/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.taobao.android.weex_inspection:urlconnection_interceptor:1.0.0] /Users/jsen/.android/build-cache/5a754a26aa3afc588e62e3b3a2ab5a21def20930/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.taobao.android.weex_inspection:protocol:1.1.4.1] /Users/jsen/.android/build-cache/2e09c7c1411a7ccf18025cb8e2bbe259aa79548e/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/jsen/.android/build-cache/8b019ed281b07cf504a97a9aebb2cbe13ef9986a/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/AndroidManifest.xml:8:5-11:60
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
+receiver#com.taobao.weex.WXGlobalEventReceiver
+ADDED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:31:13-65
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/522b45036ba4b37474b0d33e3186c7f1c1fe0c09/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/cc5a48218e602edf450e1f648274f0096e8ddb07/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/jsen/.android/build-cache/09ee35c0e447d160f12b0aa618e68b3c33861b8b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/jsen/.android/build-cache/80c5bc17f926c3d3a934e6fc859ec7eabaae097b/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/jsen/.android/build-cache/4460cf662f8d83c65dcad308c93f25e748cf8a2f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/jsen/.android/build-cache/580826d8585cf9dba9b1e39755ee9101f8a5d620/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jsen/.android/build-cache/d2e28f885d24f85096d5f0214500e7a8dcc562ce/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jsen/.android/build-cache/b39a5605a7978388b5f27237665e5313596e0daf/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jsen/.android/build-cache/4bf02d836f2b6c44eaa485235cc3f5aa789ca274/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/build-cache/d363dbec51ae80993e2b2f02506f21c3a2796adc/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:12:22-65
+activity#com.taobao.weex.analyzer.view.SettingsActivity
+ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:15:9-17:52
+	android:screenOrientation
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:16:13-74

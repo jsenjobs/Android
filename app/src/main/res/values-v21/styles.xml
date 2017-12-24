@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Chaos.AppTheme" parent="BaseAppTheme">
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Chao.PopupWindow" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--<item name="android:colorBackground">#000000</item> 也可以设置背景色以及menu中的其他属性-->
+        <item name="actionOverflowMenuStyle">@style/Chaos.OverflowMenuStyle</item>
+        <item name="android:actionOverflowMenuStyle">@style/Chaos.OverflowMenuStyle</item>
+        <item name="android:popupMenuStyle">@style/Chaos.OverflowMenuStyle</item>
+    </style>
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/encode.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/encode.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/capture.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/capture.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/history.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/history.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/refresh.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/refresh.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/menu/main_scan.xml",
+        "source": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/res/menu/main_scan.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    }
+]

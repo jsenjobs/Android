@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

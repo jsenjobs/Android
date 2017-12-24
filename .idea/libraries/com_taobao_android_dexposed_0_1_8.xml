@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.taobao.android:dexposed-0.1.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
