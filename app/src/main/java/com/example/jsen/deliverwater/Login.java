@@ -12,7 +12,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.alibaba.weex.commons.AbstractWeexActivity;
-import com.example.jsen.deliverwater.weex.WXPageActivity;
 import com.taobao.weex.WXRenderErrorCode;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.WXSDKInstance;

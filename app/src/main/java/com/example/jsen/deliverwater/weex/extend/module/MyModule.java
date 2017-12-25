@@ -37,6 +37,7 @@ public class MyModule extends WXModule {
 
   @JSMethod(uiThread = false)
   public void pay(JSONObject options, JSCallback callback) {
+    /*
     if (callback != null) {
       Context context = mWXSDKInstance.getContext();
       if (context instanceof Activity) {
@@ -55,6 +56,29 @@ public class MyModule extends WXModule {
         } else {
           JSONObject jsonObject = new JSONObject();
           jsonObject.put("msg", "参数错误");
+          callback.invoke(jsonObject);
+        }
+      }
+    }*/
+    if (callback != null) {
+      Context context = mWXSDKInstance.getContext();
+      if (context instanceof Activity) {
+        String platform = options.getString("platform");
+        if ("ali".equals(platform)) {
+          if (options.containsKey("orderStr")) {
+            AliPay.doPay((Activity) context, options.getString("orderStr"), callback);
+          } else {
+            JSONObject jsonObject = new JSONObject();
+            jsonObject.put("msg", "参数错误");
+            callback.invoke(jsonObject);
+          }
+        } else if ("wx".equals(platform)) {
+          JSONObject jsonObject = new JSONObject();
+          jsonObject.put("msg", "暂未实现微信支付");
+          callback.invoke(jsonObject);
+        } else {
+          JSONObject jsonObject = new JSONObject();
+          jsonObject.put("msg", "不知此平台");
           callback.invoke(jsonObject);
         }
       }

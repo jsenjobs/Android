@@ -48,10 +48,9 @@ public class WXNavigatorModule extends WXModule {
 
     public final static String INSTANCE_ID = "instanceId";
     private final static String TAG = "Navigator";
-    public final static String WEEX = "com.taobao.android.intent.category.WEEX";
+    public final static String WEEX = "com.jsen.deliverwater.wxpage";
     private final static String URL = "url";
 
-    private final static String WXACTION = "com.jsen.deliverwater.wxpage";
 
     @JSMethod(uiThread = true)
     public void open(JSONObject options, JSCallback success, JSCallback failure) {

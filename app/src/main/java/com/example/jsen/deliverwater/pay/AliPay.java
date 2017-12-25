@@ -42,7 +42,7 @@ public class AliPay {
         new Thread(r).start();
     }
 
-    private static void doPay(final Activity activity, final String orderInfo, final JSCallback callback) {
+    public static void doPay(final Activity activity, final String orderInfo, final JSCallback callback) {
 
         Runnable payRunnable = new Runnable() {
             @Override
