@@ -19,7 +19,11 @@
 package com.taobao.weex.ui.component;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.graphics.Rect;
+import android.net.Uri;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +33,7 @@ import android.widget.ImageView;
 
 import com.taobao.weappplus_sdk.R;
 import com.taobao.weex.IWXRenderListener;
+import com.taobao.weex.RenderContainer;
 import com.taobao.weex.WXRenderErrorCode;
 import com.taobao.weex.WXSDKInstance;
 import com.taobao.weex.annotation.Component;
@@ -36,6 +41,7 @@ import com.taobao.weex.common.Constants;
 import com.taobao.weex.common.WXPerformance;
 import com.taobao.weex.common.WXRenderStrategy;
 import com.taobao.weex.dom.WXDomObject;
+import com.taobao.weex.utils.WXFileUtils;
 import com.taobao.weex.utils.WXLogUtils;
 import com.taobao.weex.utils.WXUtils;
 import com.taobao.weex.utils.WXViewUtils;
@@ -281,12 +287,28 @@ public class WXEmbed extends WXDiv implements WXSDKInstance.OnInstanceVisibleLis
     }
 
     ViewGroup.LayoutParams layoutParams = getHostView().getLayoutParams();
-    sdkInstance.renderByUrl(WXPerformance.DEFAULT,
+    /*sdkInstance.renderByUrl(WXPerformance.DEFAULT,
                             url,
                             null, null, layoutParams.width,
                             layoutParams.height,
                             WXRenderStrategy.APPEND_ASYNC);
+                            */
+
+    url = url.replaceFirst("jwxpage://", "file://");
+    Log.e("EMBED", url);
+    Uri uri = Uri.parse(url);
+    url = assembleFilePath(uri);
+    Log.e("EMBEDPATH", url);
+    sdkInstance.render("EMBED", WXFileUtils.loadAsset(url, sdkInstance.getContext()), null, null, WXRenderStrategy.APPEND_ASYNC);
+
+
     return sdkInstance;
+  }
+  private String assembleFilePath(Uri uri) {
+    if (uri != null && uri.getPath() != null) {
+      return uri.getPath().replaceFirst("/", "");
+    }
+    return "";
   }
 
   @Override

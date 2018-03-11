@@ -65,7 +65,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 25);
+/******/ 	return __webpack_require__(__webpack_require__.s = 44);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -76,26 +76,165 @@
 "use strict";
 
 
-exports.getUrlBase = function (bundleUrl) {
-  var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
+var navigator = weex.requireModule('navigator');
+var SimpleStore = weex.requireModule('simpleStore');
+var storage = weex.requireModule('storage');
+var modal = weex.requireModule('modal');
+
+exports.formatDate = function (date, format) {
+  var o = {
+    "M+": date.getMonth() + 1, //month
+    "d+": date.getDate(), //day
+    "h+": date.getHours(), //hour
+    "m+": date.getMinutes(), //minute
+    "s+": date.getSeconds(), //second
+    "q+": Math.floor((date.getMonth() + 3) / 3), //quarter
+    "S": date.getMilliseconds() //millisecond
+  };
+  if (/(y+)/.test(format)) format = format.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
+  for (var k in o) {
+    if (new RegExp("(" + k + ")").test(format)) format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+  }return format;
+};
+
+exports.setUp = function (title) {
+  var clear = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+
+  if (weex.config.env.platform !== 'iOS') {
+    navigator.setNavBarTitle(title);
+    if (clear) navigator.clearNavBarLeftItem();
+  } else {
+    navigator.setNavBarTitle({ title: title });
+  }
+};
+
+exports.getItem = function (key, callback) {
+  if (weex.config.env.platform !== 'iOS') {
+    storage.getItem(key, callback);
+  } else {
+    SimpleStore.getItem(key, callback);
+  }
+};
+
+exports.setItem = function (key, value, callback) {
+  if (weex.config.env.platform !== 'iOS') {
+    storage.setItem(key, value, callback);
+  } else {
+    SimpleStore.setItem(key, value, callback);
+  }
+};
+
+exports.removeItem = function (key, callback) {
+  if (weex.config.env.platform !== 'iOS') {
+    storage.removeItem(key, callback);
+  } else {
+    SimpleStore.removeItem(key, callback);
+  }
+};
+
+/***/ }),
+
+/***/ 1:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+/*
+exports.getUrlBase = function(bundleUrl) {
+  let isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0
+  let isIOSAssets = bundleUrl.indexOf('file:///') >= 0
+
+  if(isAndroidAssets) {
+    return 'file://assets'
+  } else if(isIOSAssets) {
+    return bundleUrl.substring(0, bundleUrl.lastIndexOf('/') - 4)
+  } else {
+    let host = '127.0.0.1:8080'
+    let matches = /\/\/([^\/]+?)\//.exec(bundleUrl)
+    if(matches && matches.length >= 2) {
+      host = matches[1]
+    }
+    return 'http://' + host
+  }
+}*/
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+exports.getBaseURL = function () {
+  var bundleUrl = weex.config.bundleUrl;
+  var nativeBase;
+  var isAndroidAssets = bundleUrl.indexOf('jwxpage://assets/') >= 0 || bundleUrl.indexOf('file://assets/') >= 0;
+  var isiOSAssets = bundleUrl.indexOf('file:///') >= 0 && bundleUrl.indexOf('WeexDemo.app') > 0;
+  if (isAndroidAssets) {
+    nativeBase = 'jwxpage://assets/dist/';
+  } else if (isiOSAssets) {
+    // file:///var/mobile/Containers/Bundle/Application/{id}/WeexDemo.app/
+    // file:///Users/{user}/Library/Developer/CoreSimulator/Devices/{id}/data/Containers/Bundle/Application/{id}/WeexDemo.app/
+    nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/dist/') + 6);
+  } else {
+    var host = 'localhost:12580';
+    var matches = /\/\/([^\/]+?)\//.exec(weex.config.bundleUrl);
+    if (matches && matches.length >= 2) {
+      host = matches[1];
+    }
+    nativeBase = 'http://' + host + '/dist/';
+  }
+  var h5Base = './vue.html?page=./dist/';
+  // in Native
+  var base = nativeBase;
+  if ((typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') {
+    // in Browser or WebView
+    base = h5Base;
+  }
+  return base;
+};
+exports.getSub = function (url) {
+  url = url.substring(0, url.lastIndexOf('/dist/'));
+  url = url.substring(0, url.lastIndexOf('/'));
+  return url + '/dist/';
+};
+
+exports.getBaseImageUrl = function () {
+  var bundleUrl = weex.config.bundleUrl;
+  var isAndroidAssets = bundleUrl.indexOf('jwxpage://assets/') >= 0 || bundleUrl.indexOf('file://assets/') >= 0;
   var isIOSAssets = bundleUrl.indexOf('file:///') >= 0;
 
   if (isAndroidAssets) {
-    return 'file://assets';
+    return 'asset:///dist/';
   } else if (isIOSAssets) {
-    return bundleUrl.substring(0, bundleUrl.lastIndexOf('/') - 4);
+    return bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1);
   } else {
-    var host = '127.0.0.1:8080';
+    var host = '127.0.0.1:8080/dist/';
     var matches = /\/\/([^\/]+?)\//.exec(bundleUrl);
     if (matches && matches.length >= 2) {
       host = matches[1];
     }
-    return 'http://' + host;
+    return 'http://' + host + '/dist/';
   }
 };
 
 exports.getImageBase = function (bundleUrl) {
-  var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
+  var isAndroidAssets = bundleUrl.indexOf('jwxpage://assets/') >= 0 || bundleUrl.indexOf('file://assets/') >= 0;
   var isIOSAssets = bundleUrl.indexOf('file:///') >= 0;
 
   if (isAndroidAssets) {
@@ -131,7 +270,282 @@ exports.getParams = function (url) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 19:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var modal = weex.requireModule('modal');
+var picker = weex.requireModule('picker');
+var navigator = weex.requireModule('navigator');
+var price = [2000, 1000, 500];
+var UnionPay = weex.requireModule('unionPay');
+var stream = weex.requireModule('stream');
+var globalEvent = weex.requireModule('globalEvent');
+var PayTools = __webpack_require__(33);
+var PlatformTools = __webpack_require__(0);
+var UrlTools = __webpack_require__(1);
+exports.default = {
+  data: function data() {
+    return {
+      total: 10,
+      num: 1,
+      index: 1,
+      typeStr: '中桶水',
+      types: ['大桶水', '中桶水', '小桶水'],
+      isAliPay: true,
+      isAliPayUrl: '',
+      isWxPayUrl: '',
+
+      nowSubBack: 'sbAli',
+      openid: '',
+      isPaying: false
+    };
+  },
+  methods: {
+    pay: function pay() {
+      var _this = this;
+
+      if (this.isPaying) return;
+      if (!this.openid || this.openid === '') {
+        modal.alert({
+          message: '无法获取用户信息',
+          okTitle: '确定'
+        });
+        return;
+      }
+      if (this.num > 2000 || this.num < 1) {
+        modal.alert({
+          message: '单次购买数量不超过2000',
+          okTitle: '确定'
+        });
+        return;
+      }
+      if (this.index > 2 || this.index < 0) {
+        modal.alert({
+          message: '不支持的购买类型',
+          okTitle: '确定'
+        });
+        return;
+      }
+
+      if (this.isAliPay) {
+        PayTools.getAliPreOrder(this.openid, this.index, 1, function (result) {
+          if (result) {
+            UnionPay.printLog(JSON.stringify(result));
+            _this.isPaying = true;
+            UnionPay.pay(result);
+          }
+        });
+      } else {
+        PayTools.getWxPreOrder(this.openid, this.index, this.num, function (result) {
+          if (result) {
+            UnionPay.printLog(JSON.stringify(result));
+            _this.isPaying = true;
+            UnionPay.pay(result);
+          }
+        });
+      }
+    },
+    getStarCount: function getStarCount(repo, callback) {
+      return stream.fetch({
+        method: 'GET',
+        type: 'json',
+        url: 'https://aaa.bigfacewo.com/dwssserver/prepay/ali/jsen/0/1'
+      }, callback);
+    },
+
+    pickType: function pickType() {
+      var _this2 = this;
+
+      picker.pick({
+        index: 1,
+        items: this.types
+      }, function (event) {
+        if (event.result === 'success') {
+          _this2.index = event.data;
+          _this2.typeStr = _this2.types[_this2.index];
+          _this2.total = _this2.calPrice();
+        }
+      });
+    },
+    calPrice: function calPrice() {
+      var p = parseFloat(price[this.index] * this.num) / 100.0;
+      return p;
+    },
+    onNumChange: function onNumChange(e) {
+      if (this.checkNum(e.value)) {
+        this.num = parseInt(e.value);
+      } else {
+        this.$refs.num.value('1');
+      }
+      this.total = this.calPrice();
+    },
+    checkNum: function checkNum(txt) {
+      var re = /^[0-9]+.?[0-9]*$/; //判断字符串是否为数字 //判断正整数 /^[1-9]+[0-9]*]*$/
+
+      if (!re.test(txt)) {
+        return false;
+      }
+      return true;
+    },
+    getImage: function getImage(imageName) {
+      return UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/' + imageName;
+    },
+    changePayWay: function changePayWay(index) {
+      if (index === 0) {
+        this.nowSubBack = 'sbAli';
+        this.isAliPay = true;
+        this.isAliPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/checked.png';
+        this.isWxPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/check.png';
+      } else {
+        this.nowSubBack = 'sbWx';
+        this.isAliPay = false;
+        this.isAliPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/check.png';
+        this.isWxPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/checked.png';
+      }
+    }
+  },
+  mounted: function mounted() {
+    var _this3 = this;
+
+    PlatformTools.getItem('userKey', function (result) {
+      if (result.result === 'success' && result.data && result.data != '') {
+        _this3.openid = result.data;
+      }
+    });
+    globalEvent.addEventListener("PayResult", function (result) {
+      _this3.isPaying = false;
+      if (result) {
+        if (result.code === 0) {
+          modal.alert({
+            message: result.msg
+          }, function (_) {
+            navigator.pop({ animated: 'true' });
+          });
+        } else {
+          modal.alert({
+            message: result.msg
+          });
+        }
+      }
+    });
+
+    if (weex.config.env.platform !== 'iOS') {
+      navigator.setNavBarTitle('订单支付');
+      // navigator.clearNavBarLeftItem()
+    } else {
+      navigator.setNavBarTitle({ title: '订单支付' });
+    }
+    var params = UrlTools.getParams(weex.config.bundleUrl);
+    if (params.type) {
+      var type = parseInt(params.type);
+      this.index = type;
+      this.typeStr = this.types[this.index];
+      this.total = this.calPrice();
+    }
+    this.changePayWay(0);
+  }
+};
+
+/***/ }),
+
+/***/ 2:
+/***/ (function(module, exports) {
+
+module.exports = {"login":"https://deliverwater.sanliyunkeji.com/dwssserveruser/login","userbase":"https://deliverwater.sanliyunkeji.com/dwssserveruser","listNoOrder":"https://deliverwater.sanliyunkeji.com/dwssserveruser/order/list/tobe","orderFinished":"https://deliverwater.sanliyunkeji.com/dwssserveruser/order/sended","listAllOrders":"https://deliverwater.sanliyunkeji.com/dwssserveruser/order/listall","webSocket":"wss://deliverwater.sanliyunkeji.com/dwss","getAliPreOrder":"https://deliverwater.sanliyunkeji.com/dwssserver/prepay/ali","getWxPreOrder":"https://deliverwater.sanliyunkeji.com/dwssserver/prepay/wx","ok_client":"https://deliverwater.sanliyunkeji.com/dwssserverso/ok_client_notify","getAliPreOrder2":"http://192.168.1.104:7082/prepay/ali"}
+
+/***/ }),
+
+/***/ 23:
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -298,7 +712,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 19:
+/***/ 30:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -442,10 +856,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: ["v-h"]
   }), _c('text', {
-    staticClass: ["sb-txt"],
-    on: {
-      "click": _vm.pay
-    }
+    staticClass: ["sb-txt"]
   }, [_vm._v("确认支付  ￥" + _vm._s(_vm.total) + "元")]), _c('div', {
     staticClass: ["v-h"]
   })])])
@@ -488,21 +899,62 @@ module.exports.render._withStripped = true
 
 /***/ }),
 
-/***/ 25:
+/***/ 33:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var apis = __webpack_require__(2);
+var stream = weex.requireModule('stream');
+
+exports.getAliPreOrder = function (id, type, num, callback) {
+  stream.fetch({
+    method: 'GET',
+    type: 'json',
+    url: apis.getAliPreOrder + '/' + id + '/' + type + '/' + num
+  }, function (res) {
+    if (res.ok && res.data && res.data.code === 0 && res.data.data) {
+      callback({ platform: 'ali', orderStr: res.data.data });
+    } else {
+      callback();
+    }
+  });
+};
+
+exports.getWxPreOrder = function (id, type, num, callback) {
+  callback({ platform: 'wx', orderStr: 'hold' });
+  return;
+  stream.fetch({
+    method: 'GET',
+    type: 'json',
+    url: apis.getWxPreOrder + '/' + id + '/' + type + '/' + num
+  }, function (res) {
+    if (res.ok && res.data && res.data.code === 0) {
+      callback({ platform: 'wx', data: res.data });
+    } else {
+      callback();
+    }
+  });
+};
+
+/***/ }),
+
+/***/ 44:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(13)
+__vue_styles__.push(__webpack_require__(23)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(7)
+__vue_exports__ = __webpack_require__(19)
 
 /* template */
-var __vue_template__ = __webpack_require__(19)
+var __vue_template__ = __webpack_require__(30)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -532,258 +984,6 @@ module.exports = __vue_exports__
 module.exports.el = 'true'
 new Vue(module.exports)
 
-
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-var modal = weex.requireModule('modal');
-var picker = weex.requireModule('picker');
-var navigator = weex.requireModule('navigator');
-var UrlTools = __webpack_require__(0);
-var price = [2000, 1000, 500];
-var UnionPay = weex.requireModule('unionPay');
-var stream = weex.requireModule('stream');
-var globalEvent = weex.requireModule('globalEvent');
-exports.default = {
-  data: function data() {
-    return {
-      total: 10,
-      num: 1,
-      index: 1,
-      typeStr: '中桶水',
-      types: ['大桶水', '中桶水', '小桶水'],
-      isAliPay: true,
-      isAliPayUrl: '',
-      isWxPayUrl: '',
-
-      nowSubBack: 'sbAli'
-    };
-  },
-  methods: {
-    pay: function pay() {
-      var _this = this;
-
-      var platform = this.isAliPay ? 'ali' : 'wx';
-      if (UnionPay) {
-        UnionPay.pay({
-          platform: platform,
-          type: this.index,
-          num: this.num
-        }, function (result) {
-          if (_this.isAliPay) {
-            if (result && result.resultStatus === '9000') {
-              modal.toast({
-                message: '支付成功',
-                duration: 1
-              });
-              setItem(function (_) {
-                navigator.pop();
-              }, 500);
-            } else {
-              modal.toast({
-                message: '支付失败',
-                duration: 1
-              });
-            }
-          } else {
-            modal.toast({
-              message: '微信支付还未实现',
-              duration: 1
-            });
-          }
-          /*
-          if(result === 'success') {
-            modal.toast({
-              message:'支付成功',
-              duration: 0.3
-            })
-            navigator.pop()
-          } else {
-            modal.toast({
-              message:'支付失败',
-              duration: 0.3
-            })
-          }
-          */
-        });
-      } else {
-        modal.toast({
-          message: '当前环境不支持支付操作'
-        });
-      }
-    },
-    getStarCount: function getStarCount(repo, callback) {
-      return stream.fetch({
-        method: 'GET',
-        type: 'json',
-        url: 'https://aaa.bigfacewo.com/dwssserver/prepay/ali/jsen/0/1'
-      }, callback);
-    },
-
-    pickType: function pickType() {
-      var _this2 = this;
-
-      picker.pick({
-        index: 1,
-        items: this.types
-      }, function (event) {
-        if (event.result === 'success') {
-          _this2.index = event.data;
-          _this2.typeStr = _this2.types[_this2.index];
-          _this2.total = _this2.calPrice();
-        }
-      });
-    },
-    calPrice: function calPrice() {
-      var p = parseFloat(price[this.index] * this.num) / 100.0;
-      return p;
-    },
-    onNumChange: function onNumChange(e) {
-      if (this.checkNum(e.value)) {
-        this.num = parseInt(e.value);
-      } else {
-        this.$refs.num.value('1');
-      }
-      this.total = this.calPrice();
-    },
-    checkNum: function checkNum(txt) {
-      var re = /^[0-9]+.?[0-9]*$/; //判断字符串是否为数字 //判断正整数 /^[1-9]+[0-9]*]*$/
-
-      if (!re.test(txt)) {
-        return false;
-      }
-      return true;
-    },
-    getImage: function getImage(imageName) {
-      return UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/' + imageName;
-    },
-    changePayWay: function changePayWay(index) {
-      if (index === 0) {
-        this.nowSubBack = 'sbAli';
-        this.isAliPay = true;
-        this.isAliPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/checked.png';
-        this.isWxPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/check.png';
-      } else {
-        this.nowSubBack = 'sbWx';
-        this.isAliPay = false;
-        this.isAliPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/check.png';
-        this.isWxPayUrl = UrlTools.getImageBase(weex.config.bundleUrl) + '/dist/checked.png';
-      }
-    }
-  },
-  mounted: function mounted() {
-    globalEvent.addEventListener("PayResult", function (result) {
-      console.log(result);
-    });
-
-    if (weex.config.env.platform !== 'iOS') {
-      navigator.setNavBarTitle('订单支付');
-      // navigator.clearNavBarLeftItem()
-    } else {
-      navigator.setNavBarTitle({ title: '订单支付' });
-    }
-    var params = UrlTools.getParams(weex.config.bundleUrl);
-    if (params.type) {
-      var type = parseInt(params.type);
-      this.index = type;
-      this.typeStr = this.types[this.index];
-      this.total = this.calPrice();
-    }
-    this.changePayWay(0);
-  }
-};
 
 /***/ })
 

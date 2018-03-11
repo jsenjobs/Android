@@ -43,8 +43,8 @@ subprojects {
     ext {
         compileSdkVersion=25
         buildToolsVersion="25.0.3"
-        minSdkVersion=14
-        appMinSdkVersion=15
+        minSdkVersion=18
+        appMinSdkVersion=18
         targetSdkVersion=25
         supportLibVersion="25.3.1"
         fastjsonLibVersion="1.1.46.android"

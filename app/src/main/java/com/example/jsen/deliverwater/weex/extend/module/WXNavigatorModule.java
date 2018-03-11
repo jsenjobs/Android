@@ -24,10 +24,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
+import com.example.jsen.deliverwater.Login;
+import com.example.jsen.deliverwater.Splash;
+import com.example.jsen.deliverwater.weex.WXPageActivity;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.annotation.JSMethod;
 import com.taobao.weex.bridge.JSCallback;
@@ -56,9 +60,23 @@ public class WXNavigatorModule extends WXModule {
     public void open(JSONObject options, JSCallback success, JSCallback failure) {
         if (options != null) {
             String url = options.getString(Constants.Value.URL);
-            JSCallback callback = success;
             JSONObject result = new JSONObject();
+            JSCallback callback = success;
+            if (options.containsKey("login") && "true".equals(options.getString("login"))) {
+                Context context = mWXSDKInstance.getContext();
+                context.startActivity(new Intent(context, Login.class));
+                if (context instanceof Activity) {
+                    ((Activity) context).finish();
+                }
+                if(callback != null){
+                    result.put(CALLBACK_RESULT, MSG_SUCCESS);
+                    callback.invoke(result);
+                }
+                return;
+            }
             if (!TextUtils.isEmpty(url)) {
+                url = url.replaceFirst("file://", WXPageActivity.JLocal + "://");
+
                 Uri rawUri = Uri.parse(url);
                 String scheme = rawUri.getScheme();
                 if (TextUtils.isEmpty(scheme) /*|| Constants.Scheme.HTTP.equalsIgnoreCase(scheme) || Constants.Scheme.HTTPS.equalsIgnoreCase(scheme)*/) {
@@ -126,6 +144,8 @@ public class WXNavigatorModule extends WXModule {
                 JSONObject jsonObject = JSON.parseObject(param);
                 String url = jsonObject.getString(URL);
                 if (!TextUtils.isEmpty(url)) {
+                    url = url.replaceFirst("file://", WXPageActivity.JLocal + "://");
+                    Log.e("WXNavigator open2:", url);
                     Uri rawUri = Uri.parse(url);
                     String scheme = rawUri.getScheme();
                     Uri.Builder builder = rawUri.buildUpon();

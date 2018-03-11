@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.taobao.android:weex_inspector-0.11.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/07ff9ab6ac615ebdebfedd13788c6ed6bf2a42f4/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/07ff9ab6ac615ebdebfedd13788c6ed6bf2a42f4/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

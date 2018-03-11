@@ -17,7 +17,7 @@ ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground
 		INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:24:5-66
-MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/AndroidManifest.xml:9:5-67
+MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/704f2b0d4c4406403b8fd5d60eee919455e616cc/output/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:24:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -42,7 +42,7 @@ ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground
 		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:29:22-85
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:30:5-77
-MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:11:5-78
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:30:22-75
 uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
@@ -76,7 +76,7 @@ ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground
 application
 ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:40:5-121:19
 MERGED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:29:5-35:19
-MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/0673df434bfeb083609d61ae3101c13e8c2e5b43/output/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/522b45036ba4b37474b0d33e3186c7f1c1fe0c09/output/AndroidManifest.xml:26:5-20
@@ -89,8 +89,8 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jsen/.android/bu
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jsen/.android/build-cache/4bf02d836f2b6c44eaa485235cc3f5aa789ca274/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/build-cache/d363dbec51ae80993e2b2f02506f21c3a2796adc/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/jsen/.android/build-cache/8b019ed281b07cf504a97a9aebb2cbe13ef9986a/output/AndroidManifest.xml:24:5-20
-MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/AndroidManifest.xml:13:5-20
-MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:14:5-18:19
+MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/07ff9ab6ac615ebdebfedd13788c6ed6bf2a42f4/output/AndroidManifest.xml:13:5-20
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:14:5-18:19
 	android:label
 		ADDED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml:44:13-45
 	android:supportsRtl
@@ -229,15 +229,15 @@ uses-sdk
 INJECTED from /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [Android:commons:unspecified] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/bundles/default/AndroidManifest.xml:25:5-27:41
 MERGED from [Android:sdk:0.9.4] /Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/sdk/build/intermediates/bundles/default/AndroidManifest.xml:25:5-27:41
-MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/9c1aee5b0a0fd02424e63b2d5d89368e06ffc0bd/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:0.12.0] /Users/jsen/.android/build-cache/26f63bfc9e5b5ab281ddeebc29e34d09949f19e4/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.12.0] /Users/jsen/.android/build-cache/9f94cce64dbc3ca60ddfba225846e91ec6f71c45/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:animated-gif:0.12.0] /Users/jsen/.android/build-cache/6c83e110ae3c8a936ad995207fbc9f7cc3187281/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:animated-base:0.12.0] /Users/jsen/.android/build-cache/88dc7c2e104d9ac41acb81b8fd97dbb50a7584e4/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.12.0] /Users/jsen/.android/build-cache/2f1e855a8405fb3b06dadfa08e0f3085ec6e4854/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:0.12.0] /Users/jsen/.android/build-cache/543578e4a2e65c29f0c8b3b8f8a008dfc3fe97e1/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.12.0] /Users/jsen/.android/build-cache/e96066268cda090c703d80b54193daa77caca1be/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.taobao.android:dexposed:0.1.8] /Users/jsen/.android/build-cache/0673df434bfeb083609d61ae3101c13e8c2e5b43/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.loopj.android:android-async-http:1.4.9] /Users/jsen/.android/build-cache/704f2b0d4c4406403b8fd5d60eee919455e616cc/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.12.0] /Users/jsen/.android/build-cache/fd4754417b640c64e7c42011224a195697cb1bb0/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.12.0] /Users/jsen/.android/build-cache/34f015623437a391c045482101acbcfa7e94c6ed/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:0.12.0] /Users/jsen/.android/build-cache/79d3d200f2e82204211fbe7b850e5c664dc18c33/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:0.12.0] /Users/jsen/.android/build-cache/15244b10e38eb6ed2d2631f78821316bff28ad41/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.12.0] /Users/jsen/.android/build-cache/167b5ed8f52e4857ca5e7d89ec0003778c978a55/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.12.0] /Users/jsen/.android/build-cache/5c4c95e74f1a4f4f2f0852bf75c9407f94ea3de5/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.12.0] /Users/jsen/.android/build-cache/fc7bcc441b4cfb3453091b72f1ca8f384680c741/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/jsen/.android/build-cache/522b45036ba4b37474b0d33e3186c7f1c1fe0c09/output/AndroidManifest.xml:20:5-44
@@ -250,11 +250,11 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /Users/jsen/.andro
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/jsen/.android/build-cache/b39a5605a7978388b5f27237665e5313596e0daf/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/jsen/.android/build-cache/4bf02d836f2b6c44eaa485235cc3f5aa789ca274/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/build-cache/d363dbec51ae80993e2b2f02506f21c3a2796adc/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.taobao.android.weex_inspection:urlconnection_interceptor:1.0.0] /Users/jsen/.android/build-cache/5a754a26aa3afc588e62e3b3a2ab5a21def20930/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.taobao.android.weex_inspection:protocol:1.1.4.1] /Users/jsen/.android/build-cache/2e09c7c1411a7ccf18025cb8e2bbe259aa79548e/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.taobao.android.weex_inspection:urlconnection_interceptor:1.0.0] /Users/jsen/.android/build-cache/3c2b0cac5303e16bb2aeb4dbe27a1b327848872e/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.taobao.android.weex_inspection:protocol:1.1.4.1] /Users/jsen/.android/build-cache/06c9bced04b798109a580e750a812511fe9c27ed/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] /Users/jsen/.android/build-cache/8b019ed281b07cf504a97a9aebb2cbe13ef9986a/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/ee008f7479a267e59f56b6d35954103332b880c3/output/AndroidManifest.xml:8:5-11:60
-MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.taobao.android:weex_inspector:0.11.0] /Users/jsen/.android/build-cache/07ff9ab6ac615ebdebfedd13788c6ed6bf2a42f4/output/AndroidManifest.xml:8:5-11:60
+MERGED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -289,12 +289,12 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/jsen/.android/bui
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/jsen/.android/build-cache/d2207f198960786409a1202fc144f599eb38cd83/output/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.READ_LOGS
-ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:12:5-68
+ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:12:22-65
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:12:22-65
 activity#com.taobao.weex.analyzer.view.SettingsActivity
-ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:15:9-17:52
+ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:15:9-17:52
 	android:screenOrientation
-		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:17:13-49
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:17:13-49
 	android:name
-		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/AndroidManifest.xml:16:13-74
+		ADDED from [com.taobao.android:weex_analyzer:0.1.0.5] /Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/AndroidManifest.xml:16:13-74

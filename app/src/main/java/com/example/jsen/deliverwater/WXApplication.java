@@ -11,6 +11,8 @@ import com.alibaba.weex.commons.adapter.JSExceptionAdapter;
 import com.example.jsen.deliverwater.weex.extend.adapter.DefaultAccessibilityRoleAdapter;
 import com.example.jsen.deliverwater.weex.extend.adapter.FrescoImageComponent;
 import com.example.jsen.deliverwater.weex.extend.adapter.InterceptWXHttpAdapter;
+import com.example.jsen.deliverwater.weex.extend.adapter.WebSocketAdapterFactory;
+import com.example.jsen.deliverwater.weex.extend.component.JWXEmbed;
 import com.example.jsen.deliverwater.weex.extend.component.RichText;
 import com.example.jsen.deliverwater.weex.extend.component.WXComponentSyncTest;
 import com.example.jsen.deliverwater.weex.extend.component.WXMask;
@@ -29,6 +31,10 @@ import com.taobao.weex.WXEnvironment;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.WXSDKManager;
 import com.taobao.weex.common.WXException;
+import com.taobao.weex.ui.component.WXBasicComponentType;
+import com.taobao.weex.ui.component.WXEmbed;
+import com.tencent.mm.opensdk.openapi.IWXAPI;
+import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
 
 /**
@@ -36,10 +42,14 @@ import com.taobao.weex.common.WXException;
  */
 
 public class WXApplication extends Application {
-
+    public IWXAPI msgApi;
     @Override
     public void onCreate() {
         super.onCreate();
+
+        msgApi = WXAPIFactory.createWXAPI(this, null);
+        // 将该app注册到微信
+        msgApi.registerApp(Constants.wxAppID);
 
         /**
          * Set up for fresco usage.
@@ -58,7 +68,7 @@ public class WXApplication extends Application {
                         .setImgAdapter(new FrescoImageAdapter())// use fresco adapter
                         // .setImgAdapter(new ImageAdapter())
                         .setStorageAdapter(new WXStorageAdapter(this))
-                        .setWebSocketAdapterFactory(new DefaultWebSocketAdapterFactory())
+                        .setWebSocketAdapterFactory(new WebSocketAdapterFactory())
                         .setJSExceptionAdapter(new JSExceptionAdapter())
                         .setHttpAdapter(new InterceptWXHttpAdapter())
                         .build()
@@ -75,6 +85,8 @@ public class WXApplication extends Application {
             WXSDKEngine.registerModule("render", RenderModule.class);
             WXSDKEngine.registerModule("event", WXEventModule.class);
             WXSDKEngine.registerModule("syncTest", SyncTestModule.class);
+            WXSDKEngine.registerComponent(WXBasicComponentType.EMBED, JWXEmbed.class, true);
+
 
             WXSDKEngine.registerComponent("mask",WXMask.class);
             WXSDKEngine.registerDomObject("mask", WXMaskDomObject.class);

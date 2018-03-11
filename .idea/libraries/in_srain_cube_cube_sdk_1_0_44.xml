@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="in.srain.cube:cube-sdk-1.0.44">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/ee77a7dc22ea05c8aa6855981906aa8609467261/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/ee77a7dc22ea05c8aa6855981906aa8609467261/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/0469d25bb09676ae22e84fff47841d576e550b0e/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/0469d25bb09676ae22e84fff47841d576e550b0e/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

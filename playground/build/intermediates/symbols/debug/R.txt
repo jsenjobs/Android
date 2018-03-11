@@ -914,7 +914,7 @@ int id navigation_header_container 0x7f1000a2
 int id never 0x7f10004b
 int id none 0x7f10001b
 int id normal 0x7f100017
-int id notification_background 0x7f101443
+int id notification_background 0x7f101442
 int id notification_main_column 0x7f10143d
 int id notification_main_column_container 0x7f10143c
 int id option_icon 0x7f10147a
@@ -941,7 +941,7 @@ int id result_list_view 0x7f10144c
 int id result_view 0x7f10008c
 int id return_scan_result 0x7f10000e
 int id right 0x7f100034
-int id right_icon 0x7f101442
+int id right_icon 0x7f101443
 int id right_side 0x7f10143e
 int id rule_all 0x7f101471
 int id rule_calljs 0x7f101473

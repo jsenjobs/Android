@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.loopj.android:android-async-http-1.4.9">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/69e63c389396df47528fc03077ef654a2c3e0736/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/704f2b0d4c4406403b8fd5d60eee919455e616cc/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/704f2b0d4c4406403b8fd5d60eee919455e616cc/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

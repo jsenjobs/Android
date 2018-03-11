@@ -144,10 +144,6 @@
         "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout/notification_template_custom_big.xml",
-        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/commons/build/intermediates/res/merged/androidTest/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },

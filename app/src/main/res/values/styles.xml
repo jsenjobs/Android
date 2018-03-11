@@ -5,17 +5,19 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">#039c00</item>
+        <!-- <item name="colorAccent">#039c00</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textColorHint">#eaeaea</item>
         <item name="actionOverflowMenuStyle">@style/Chaos.OverflowMenuStyle</item>
+        <item name="radioButtonStyle">@style/Chaos.RadioButton</item> -->
         <item name="toolbarNavigationButtonStyle">@style/myToolbarNavigationButtonStyle</item>
-        <item name="radioButtonStyle">@style/Chaos.RadioButton</item>
-        <item name="android:windowBackground">@color/splash_back</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--
         <item name="android:activityOpenEnterAnimation">@anim/fragment_login_in_left</item>
         <item name="android:activityOpenExitAnimation">@anim/fragment_login_out_right</item>
         <item name="android:activityCloseEnterAnimation">@anim/fragment_login_in_right</item>
         <item name="android:activityCloseExitAnimation">@anim/fragment_login_out_left</item>
+        -->
         <!-- <item name="checkedTextViewStyle">@style/Chaos.ChectedTextView</item> -->
         <!-- <item name="android:windowBackground">@color/gray_light</item> -->
     </style>

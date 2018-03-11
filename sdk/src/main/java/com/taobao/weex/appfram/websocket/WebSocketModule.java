@@ -86,6 +86,7 @@ public class WebSocketModule extends WXSDKEngine.DestroyableModule {
         if (webSocketAdapter != null) {
             webSocketAdapter.close(WebSocketCloseCodes.CLOSE_GOING_AWAY.getCode(), WebSocketCloseCodes.CLOSE_GOING_AWAY.name());
         }
+
         webSocketAdapter = mWXSDKInstance.getWXWebSocketAdapter();
         if (!reportErrorIfNoAdapter()) {
             webSocketAdapter.connect(url, protocol, eventListener);

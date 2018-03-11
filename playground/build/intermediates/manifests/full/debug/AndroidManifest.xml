@@ -23,7 +23,7 @@ under the License.
     android:versionName="0.5.2.5" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="18"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />

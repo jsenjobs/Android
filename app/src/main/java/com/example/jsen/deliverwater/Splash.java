@@ -11,7 +11,9 @@ import android.view.animation.AnimationSet;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 
+import com.example.jsen.deliverwater.weex.WXPageActivity;
 import com.example.jsen.deliverwater.weex.extend.module.SimpleStore;
+import com.example.jsen.deliverwater.weex.util.WXCacheLocalAssetsUtils;
 import com.taobao.weex.common.Constants;
 
 import java.util.Calendar;
@@ -62,7 +64,8 @@ public class Splash extends AppCompatActivity {
                     startActivity(new Intent(Splash.this, Login.class));
                 } else {
 
-                    Uri rawUri = Uri.parse("file://assets/dist/main.js");
+                    Uri rawUri = Uri.parse(WXPageActivity.JLocal + "://assets/dist/mainContainer.js");
+                    // Uri rawUri = Uri.parse("file://assets/dist/main.js");
                     String scheme = rawUri.getScheme();
                     Uri.Builder builder = rawUri.buildUpon();
                     if (TextUtils.isEmpty(scheme)) {
@@ -80,6 +83,8 @@ public class Splash extends AppCompatActivity {
             }
         });
         textView.startAnimation(animationSet);
+
+        WXCacheLocalAssetsUtils.InitCache(this);
     }
 
     /**

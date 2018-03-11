@@ -20,6 +20,7 @@ package com.taobao.weex.utils;
 
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -69,7 +70,7 @@ public class WXFileUtils {
     if (context == null || TextUtils.isEmpty(path)) {
       return null;
     }
-    InputStream inputStream = null;
+    InputStream inputStream;
     try {
       inputStream = context.getAssets().open(path);
       return readStreamToString(inputStream);

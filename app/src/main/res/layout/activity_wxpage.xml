@@ -32,7 +32,6 @@ under the License.
             android:id="@id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/toolBarSize"
-            android:background="@color/splash_back"
             app:contentInsetStartWithNavigation="0dp"
             app:contentInsetStart="0dp"
             app:contentInsetLeft="0dp"
@@ -57,9 +56,9 @@ under the License.
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
         <FrameLayout
             android:id="@+id/container"
+            android:background="#eeeeee"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#ffffff">
+            android:layout_height="match_parent">
             <!--
                         <WebView
                             android:id="@+id/webviewLayout"
@@ -70,18 +69,6 @@ under the License.
 
 
         </FrameLayout>
-
-        <!--<Button-->
-        <!--android:id="@+id/weex_refresh"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="100dp" />-->
-
-        <ProgressBar
-            android:id="@+id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:visibility="gone"/>
 
     </FrameLayout>
 

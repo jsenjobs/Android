@@ -61,7 +61,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_perf_overlay_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_perf_overlay_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_perf_overlay_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
@@ -69,11 +69,11 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_item_log.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_item_log.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_item_log.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_memory_chart.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_memory_chart.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_memory_chart.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/encode.xml",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_panel_history_perf_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_panel_history_perf_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_panel_history_perf_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_storage_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_storage_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_storage_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -157,11 +157,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_entrance_layout.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_entrance_layout.xml"
-    },
-    {
-        "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/Users/jsen/.android/build-cache/3f12644859c2fdba4c5dd820cb01ac0f1b4a591a/output/res/layout/notification_template_custom_big.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_entrance_layout.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
@@ -177,7 +173,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_option_item.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_option_item.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_option_item.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/hello_weex.xml",
@@ -213,7 +209,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_weex_perf_analysis_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_weex_perf_analysis_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_weex_perf_analysis_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -229,7 +225,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_activity_settings.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_activity_settings.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_activity_settings.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -249,11 +245,11 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_panel_cur_perf_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_panel_cur_perf_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_panel_cur_perf_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_log_view.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_log_view.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_log_view.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/content_main.xml",
@@ -261,7 +257,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_item_storage.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_item_storage.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_item_storage.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/search_book_contents.xml",
@@ -293,7 +289,7 @@
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/wxt_log_settngs.xml",
-        "source": "/Users/jsen/.android/build-cache/b20ab359de219b71206b533da28dd34d7ee5a6ed/output/res/layout/wxt_log_settngs.xml"
+        "source": "/Users/jsen/.android/build-cache/06dcc45e3e36dde64e39666dd47e078a73b61873/output/res/layout/wxt_log_settngs.xml"
     },
     {
         "merged": "/Users/jsen/Documents/GitProjects/POJ/DeliverWater/Android/playground/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",

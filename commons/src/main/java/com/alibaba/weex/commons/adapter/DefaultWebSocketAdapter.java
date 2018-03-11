@@ -37,6 +37,7 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TimerTask;
 
 import okio.Buffer;
 import okio.BufferedSource;
@@ -138,20 +139,27 @@ public class DefaultWebSocketAdapter implements IWebSocketAdapter {
     }
 
     @Override
-    public void send(String data) {
+    public void send(final String data) {
         if (ws != null) {
-            try {
-                Buffer buffer = new Buffer().writeUtf8(data);
-                ws.sendMessage(WebSocket.PayloadType.TEXT, buffer.buffer());
-                buffer.flush();
-                buffer.close();
+            Runnable runnable = new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        Buffer buffer = new Buffer().writeUtf8(data);
+                        ws.sendMessage(WebSocket.PayloadType.TEXT, buffer.buffer());
+                        buffer.flush();
+                        buffer.close();
 
-                wsEventReporter.frameSent(data);
-            } catch (Exception e) {
-                e.printStackTrace();
-                reportError(e.getMessage());
-                wsEventReporter.frameError(e.getMessage());
-            }
+                        wsEventReporter.frameSent(data);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        reportError(e.getMessage());
+                        wsEventReporter.frameError(e.getMessage());
+                    }
+
+                }
+            };
+            new Thread(runnable).start();
         } else {
             reportError("WebSocket is not ready");
         }

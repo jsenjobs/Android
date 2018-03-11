@@ -3136,7 +3136,7 @@ containing a value of this type.
         public static final int never=0x7f10004b;
         public static final int none=0x7f10001b;
         public static final int normal=0x7f100017;
-        public static final int notification_background=0x7f101443;
+        public static final int notification_background=0x7f101442;
         public static final int notification_main_column=0x7f10143d;
         public static final int notification_main_column_container=0x7f10143c;
         public static final int option_icon=0x7f10147a;
@@ -3163,7 +3163,7 @@ containing a value of this type.
         public static final int result_view=0x7f10008c;
         public static final int return_scan_result=0x7f10000e;
         public static final int right=0x7f100034;
-        public static final int right_icon=0x7f101442;
+        public static final int right_icon=0x7f101443;
         public static final int right_side=0x7f10143e;
         public static final int rule_all=0x7f101471;
         public static final int rule_calljs=0x7f101473;
